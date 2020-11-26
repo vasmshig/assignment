@@ -42,7 +42,7 @@ resource "aws_security_group" "app_allow_tls" {
   ingress {
     description = "TLS from VPC"
     from_port   = 80
-    to_port     = 480
+    to_port     = 80
     protocol    = "tcp"
     cidr_blocks = ["10.0.1.0/24"]
   }
