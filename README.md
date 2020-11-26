@@ -1,4 +1,4 @@
-# Assignment
+# Assignment - Step by Step instructions to create or provision resources 
 1. Download Terraform unzip file
 
 2. Install Terraform on Linux or Windows
@@ -29,7 +29,7 @@
 
 13. Currently this resource requires an existing user-supplied key pair. This key pair's public key will be registered with AWS to allow logging-in to EC2 instances.
 
-14. Jump host and web instance, app instance scripts will provision resources using terraform
+14. Jump host and web instance, app instance scripts will provision resources using terraform. 
 
 How would you make the deployment fault tolerant and highly available? 
 
@@ -50,3 +50,5 @@ How would you make deployment cloud agnostic?
 Answer:
 
 1. By using provider.tf file and varaibles.tf we can able to make cloud agnostic terraform scripts
+
+Please let me know if any questions unanswered, I will try to answer them
