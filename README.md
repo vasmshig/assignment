@@ -1,4 +1,4 @@
-# assignment
+# Assignment
 1. Download Terraform unzip file
 
 2. Install Terraform on Linux or Windows
@@ -30,4 +30,9 @@
 13. Currently this resource requires an existing user-supplied key pair. This key pair's public key will be registered with AWS to allow logging-in to EC2 instances.
 
 14. Jump host and web instance,app instance scripts will provision resources using terraform
+
+How would you make the deployment fault tolerant and highly available 
+
+1. By using terraform creation of resources has many advantages, terraform makes sure creation of resources in order specified which we easliy verifies by using Terratest(unit test framework which validates script is correct or not)
+2. By using cluster mechanism or replicas we can provision based on the need , yes we can able to do it by using terraform
 
